@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oxygen:wght@700&family=Pacifico&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+@font-face {
+  font-family: irsans;
+  src: url("../webfonts/IRANSansWeb.ttf");
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  word-spacing: -2px;
+  background: rgb(2, 0, 36);
+}
+
+.container {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  font-size: 14px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  /* box-shadow: 10px 10px 60px #31a1bd; */
+  height: 600px;
+  overflow: hidden;
+}
+
+.orange-line {
+  background-color: #f66a24;
+  padding: 10px;
+  min-width: 100%;
+
+  height: 100px;
+  transform: rotate(110deg);
+}
+
+.dogs {
+  position: relative;
+  color: #ffffff;
+  font-family: "Oxygen", sans-serif;
+}
+
+.dogs label {
+  font-family: "Abril Fatface", cursive;
+  font-weight: bold;
+  font-size: 200px;
+  position: absolute;
+  right: 480px;
+  letter-spacing: -40px;
+  width: 100%;
+  padding: 10px;
+
+  background: none;
+}
+
+.descrip {
+  max-width: 300px;
+  direction: ltr;
+  word-spacing: -8px;
+  text-align: justify;
+  margin: 270px 250px 0 0;
+}
+
+.head {
+  padding: 10px;
+
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.head a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.head span {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.txt-left {
+  text-align: left !important;
+}
+
+.footer {
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.footer span {
+  background-color: #3386a8;
+  padding: 10px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: all 0.5s;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer span:hover {
+  color: #3386a8;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.footer label {
+  cursor: pointer;
+  transition: all 0.5s;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer label:hover {
+  color: #3386a8;
+}
+
+.slogan {
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  color: #ffffff;
+  font-size: 30px;
+  top: 70px;
+  right: 170px;
+}
